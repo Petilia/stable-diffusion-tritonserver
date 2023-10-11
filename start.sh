@@ -7,4 +7,4 @@ docker run --gpus device=0 \
            -v $(pwd)/engine:/workspace/TensorRT/demo/Diffusion/engine \
            -v $(pwd)/onnx:/workspace/TensorRT/demo/Diffusion/onnx \
            -v $(pwd)/output:/workspace/TensorRT/demo/Diffusion/output \
-           -it --rm tritonserver
+           -it --rm sd_trt
