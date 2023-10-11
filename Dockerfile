@@ -1,4 +1,5 @@
-FROM nvcr.io/nvidia/tritonserver:22.11-py3
+# FROM nvcr.io/nvidia/tritonserver:22.11-py3
+FROM nvcr.io/nvidia/tritonserver:22.12-py3
 
 WORKDIR /workspace
 
